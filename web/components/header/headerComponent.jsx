@@ -5,7 +5,7 @@ export const Header = () => {
     return(
         <header className="header">
             <div className="page-heading">
-                WANT TO HIT THANOS?
+                THE GOD OF THUNDER
             </div>
         </header>
     )

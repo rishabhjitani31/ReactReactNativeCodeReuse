@@ -8,7 +8,7 @@ export class HitButton extends React.Component {
 
     render() {
         return(
-            <Button title="Hit Thanos" onPress={this.props.increaseCount}></Button>
+            <Button title="Wave Thor" onPress={this.props.increaseCount}></Button>
         )
     }
 };

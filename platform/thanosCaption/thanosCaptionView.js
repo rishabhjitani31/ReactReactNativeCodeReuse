@@ -4,7 +4,7 @@ export const ThanosCaptionView = props => {
     return (
         <div className="image-wrapper">
             <p>{props.data}</p>
-            <img src="https://www.sideshow.com/product-asset/903429/feature" className="thanos-image"></img>
+            <img src="http://www.marvel-cineverse.fr/medias/images/thor-endgameprofile.jpg?fx=r_1200_800"></img>
         </div>
     )
 }

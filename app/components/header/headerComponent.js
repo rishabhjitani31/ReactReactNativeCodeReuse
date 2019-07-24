@@ -18,7 +18,7 @@ export default Header = () => {
     return(
         <View style={styles.header}>
             <Text style={styles.pageHeading}>
-                WANT TO HIT THANOS?
+                The GOD OF THUNDER
             </Text>
         </View>
     )

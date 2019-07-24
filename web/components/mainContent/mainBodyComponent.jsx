@@ -14,9 +14,9 @@ class MainComponent extends React.Component {
             <section className="main-section">
                 <ThanosCaptionConatiner></ThanosCaptionConatiner>
                 <article className="hit-button-wrapper">
-                    <p className="article-title">Then what are you waiting for? Go ahead and hit him</p>
+                    <p className="article-title">Then what are you waiting for? Go ahead and wave him</p>
                     <HitButtonContainer></HitButtonContainer>
-                    <p className="hit-count">{`You hit him ${this.props.count} times`}</p>
+                    <p className="hit-count">{`You waved him ${this.props.count} times`}</p>
                 </article>
             </section>
         )

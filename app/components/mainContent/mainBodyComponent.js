@@ -33,9 +33,9 @@ class MainComponent extends React.Component {
             <View>
                 <ThanosCaptionConatiner></ThanosCaptionConatiner>
                 <View style={styles.hitButtonWrapper}>
-                    <Text style={styles.articleTitle}>Then what are you waiting for? Go ahead and hit him</Text>
+                    <Text style={styles.articleTitle}>Then what are you waiting for? Go ahead and wave him</Text>
                     <HitButtonContainer></HitButtonContainer>
-                    <Text style={styles.hitCount}>{`You hit him ${this.props.count} times`}</Text>
+                    <Text style={styles.hitCount}>{`You waved him ${this.props.count} times`}</Text>
                 </View>
             </View>
         )
